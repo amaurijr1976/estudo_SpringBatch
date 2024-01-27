@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.amauri</groupId>
 	<artifactId>springbatch</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>springbatch</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -41,6 +41,10 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -51,5 +55,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
