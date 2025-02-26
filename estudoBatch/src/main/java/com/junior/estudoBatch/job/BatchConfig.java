@@ -37,6 +37,7 @@ public class BatchConfig {
     @Autowired
     private Step imprimeParOuImpar;
 
+    //teste
     @Bean
     public Job jobOlaMundo(JobRepository jobRepository, Step step
                             , PlatformTransactionManager transactionManager){
